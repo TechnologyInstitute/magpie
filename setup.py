@@ -52,6 +52,7 @@ setup(
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
     ],
 
@@ -67,13 +68,13 @@ setup(
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=[
-        'nltk~=3.4.5',
-        'numpy~=1.18.2',
-        'gensim~=3.8.1',
-        'scikit-learn~=0.22.2',
-        'keras~=2.2.5',
-        'h5py~=2.9',
-        'tensorflow~=1.15.2'
+        'nltk~=3.2',
+        'numpy~=1.12',
+        'scipy~=0.18',
+        'gensim~=0.13',
+        'scikit-learn~=0.18',
+        'keras~=2.0',
+        'h5py~=2.6',
     ],
 
     # List additional groups of dependencies here (e.g. development
